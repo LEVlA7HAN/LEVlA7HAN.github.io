@@ -225,6 +225,10 @@ aside img {
 aside h3 {
     font-size:1rem;
 }
+aside p {
+    border-bottom:.075rem solid black;
+    padding-bottom:3rem;
+}
 .subsection {
 display: grid;
 grid-template-columns:repeat(6, auto);
@@ -238,4 +242,8 @@ width: 100%;
 }
 h3 {
     word-spacing:0.05rem;
+}
+time {
+    font-size:0.75rem;
+    font-style:italic
 }
