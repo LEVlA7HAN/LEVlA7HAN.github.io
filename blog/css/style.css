@@ -58,7 +58,6 @@ body {
 main {
     overflow:auto;
     min-width:45rem;
-    display: inline-grid;
 }
 section {
     float: left;
@@ -206,4 +205,18 @@ li a:active {
      color:black;
     text-decoration:line-through;
     transform: rotate(4deg);
+}
+h2 {
+    padding-top: 1rem;
+}
+.main-section {
+    display:flex;
+}
+.article {
+    display:grid;
+    width: 60%;
+}
+.aside {
+    display:grid;
+    width: 40%;
 }
