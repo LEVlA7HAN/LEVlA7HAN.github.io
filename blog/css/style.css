@@ -58,6 +58,7 @@ body {
 main {
     overflow:auto;
     min-width:45rem;
+    display: inline-grid;
 }
 section {
     float: left;
@@ -87,7 +88,97 @@ footer {
 section, aside, nav, footer {
   padding: .5rem;
 }
-header, footer {
-  border-top: .125rem solid #33658A;
-  border-bottom: .125rem solid #33658A;
+@font-face {
+    font-family:Joesfinslab;
+    src: url(../blog/fonts/serif/josefinslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
 }
+@font-face {
+    font-family:robotoslab;
+    src: url(../fonts/serif/robotoslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family:rozhaone;
+    src: url(../blog/fonts/serif/rozhaone-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family:ultra;
+    src: url(../blog/fonts/serif/ultra-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family:lato;
+    src: url(../blog/fonts/sans-serif/lato-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family:montserrat;
+    src: url(../blog/fonts/sans-serif/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family:opensans;
+    src: url(../blog/fonts/sans-serif/opensans-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family:roboto;
+    src: url(../blog/fonts/sans-serif/roboto-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+html {
+    font-family: 'montserrat', Arial, sans-serif;
+}
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    text-align: center;
+    padding-bottom:4rem;
+    padding-top:.5rem;
+    color:darkslategray;
+}
+.highlight {
+text-transform: uppercase;
+font-family: "ultra", serif;
+background-color: maroon;
+padding: 1rem;
+box-shadow:0.625rem 0.625rem 0.625rem grey;
+border-radius: 1.875rem 0.625rem;
+border-color: black;
+color: beige;
+}
+.rotate {
+    transform: rotate(-2deg);
+    
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  border-top: .125rem solid black;
+  border-bottom: .125rem solid black; 
+}
+li {
+    display:inline;
+    color:cornflowerblue;
+    font-size:1.75rem;
+}
+li a {
+    outline:none;
+    color:cornflowerblue;
+    text-decoration:none;
+}
+li a:visited {
+    color:cornflowerblue;
+}
+    
