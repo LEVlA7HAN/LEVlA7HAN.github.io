@@ -153,11 +153,12 @@ text-transform: uppercase;
 font-family: "ultra", serif;
 background-color: maroon;
 padding: 1rem;
-box-shadow:.09375rem .09375rem .09375rem black;
+box-shadow: .15rem .15rem .15rem black;
 border-top-left-radius: 0.625rem;
 border-bottom-right-radius: 0.625rem;
 border-color: black;
 color: beige;
+font-weight:600;
 }
 .rotate {
     transform: rotate(-4deg);
@@ -171,18 +172,38 @@ ul {
   border-bottom: .125rem solid black; 
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  word-spacing: 6rem;
+  font-family: "lato", sans-serif;
+  font-weight:600;
 }
 li {
     display:inline;
-    color:cornflowerblue;
+    color:navy;
     font-size:1.75rem;
 }
 li a {
     outline:none;
-    color:cornflowerblue;
+    color:navy;
     text-decoration:none;
 }
-li a:visited {
-    color:cornflowerblue;
+li a:link {
+    color:navy;
 }
-    
+li a:visited {
+    color:navy;
+}
+li a:focus {
+    color:black;
+    text-decoration:line-through;
+    transform: rotate(4deg);
+}
+li a:hover {
+     color:black;
+    text-decoration:line-through;
+    transform: rotate(4deg);
+}
+li a:active {
+     color:black;
+    text-decoration:line-through;
+    transform: rotate(4deg);
+}
