@@ -199,15 +199,31 @@ border-radius: 1rem;
 text-align: left;
 margin: 10%;
 margin-top: 3rem;
-box-shadow:0.625rem 0.625rem 0.625rem grey;
+box-shadow:0.25rem 0.25rem 0.25rem grey;
 padding: 1rem;
 }
 .expand { font-size: 0.5rem; text-decoration: none; }
 article {
-    width:70%
+    width:70%;
+    border-right: .075rem solid black;
+    padding-right: 2rem;
+    word-spacing: 0.5rem;
+}
+.article-image {
+    float:left;
+    margin-right:1rem;
+    margin-left:0;
 }
 aside {
     width:30%;
+    padding-left: 2rem;
+    font-size:0.75rem;
+}
+aside img {
+    width:50%;
+}
+aside h3 {
+    font-size:1rem;
 }
 .subsection {
 display: grid;
@@ -219,4 +235,7 @@ margin: 0;
 
 .subsection img{
 width: 100%;
+}
+h3 {
+    word-spacing:0.05rem;
 }
