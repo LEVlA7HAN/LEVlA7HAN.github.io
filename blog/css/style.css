@@ -140,33 +140,37 @@ html {
     font-family: 'montserrat', Arial, sans-serif;
 }
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 0;
     text-shadow:.09375rem .09375rem .09375rem #000;
     text-align: center;
-    padding-bottom:4rem;
-    padding-top:.5rem;
-    color:darkslategray;
+    padding-bottom:5.5rem;
+    padding-top:1.5rem;
+    color:black;
 }
 .highlight {
 text-transform: uppercase;
 font-family: "ultra", serif;
 background-color: maroon;
 padding: 1rem;
-box-shadow:0.625rem 0.625rem 0.625rem grey;
-border-radius: 1.875rem 0.625rem;
+box-shadow:.09375rem .09375rem .09375rem black;
+border-top-left-radius: 0.625rem;
+border-bottom-right-radius: 0.625rem;
 border-color: black;
 color: beige;
 }
 .rotate {
-    transform: rotate(-2deg);
+    transform: rotate(-4deg);
     
 }
 ul {
   list-style-type: none;
-  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
   border-top: .125rem solid black;
   border-bottom: .125rem solid black; 
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 li {
     display:inline;
