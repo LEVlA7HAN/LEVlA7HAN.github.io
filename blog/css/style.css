@@ -59,34 +59,6 @@ main {
     overflow:auto;
     min-width:45rem;
 }
-section {
-    float: left;
-    min-width: 22.5rem;
-    width:50%;
-}
-figure {
-    width:60%;
-    margin:0 10% 0 0;
-    float:left;
-}
-figure img {
-    width:100%;
-    max-width:25rem;
-}
-figcaption {
-    margin:.375rem 0;
-}
-nav {
-    float:none;
-    width:11.25rem;
-}
-footer {
-    clear: both;
-    margin-top:1.5rem;
-}
-section, aside, nav, footer {
-  padding: .5rem;
-}
 @font-face {
     font-family:Joesfinslab;
     src: url(../blog/fonts/serif/josefinslab-regular.ttf) format('truetype');
@@ -150,13 +122,16 @@ h1 {
 .highlight {
 text-transform: uppercase;
 font-family: "ultra", serif;
-background-color: maroon;
-padding: 1rem;
+background-color: #83344e;
+padding-top: 0.25rem;
+padding-bottom: 0.25rem;
+padding-left: 1rem;
+padding-right: 1rem;
 box-shadow: .15rem .15rem .15rem black;
 border-top-left-radius: 0.625rem;
 border-bottom-right-radius: 0.625rem;
 border-color: black;
-color: beige;
+color: #eeeedd;
 font-weight:600;
 }
 .rotate {
@@ -212,11 +187,36 @@ h2 {
 .main-section {
     display:flex;
 }
-.article {
-    display:grid;
-    width: 60%;
+button{
+background-color: navy;
+border-color: navy;
+color: beige;
+font-family: 'ultra', serif;
+font-size: 2rem;
+text-transform: uppercase;
+font-weight:bolder;
+border-radius: 1rem;
+text-align: left;
+margin: 10%;
+margin-top: 3rem;
+box-shadow:0.625rem 0.625rem 0.625rem grey;
+padding: 1rem;
 }
-.aside {
-    display:grid;
-    width: 40%;
+.expand { font-size: 0.5rem; text-decoration: none; }
+article {
+    width:70%
+}
+aside {
+    width:30%;
+}
+.subsection {
+display: grid;
+grid-template-columns:repeat(6, auto);
+background-color: antiquewhite;
+clear:both;
+margin: 0;
+}
+
+.subsection img{
+width: 100%;
 }
